@@ -164,7 +164,7 @@ $ python main.py
  - Rawan Abdel-Aziz Ahmed&nbsp;&nbsp;&nbsp;&nbsp;[![](https://img.shields.io/badge/-@rawanazizsaad-181717?style=flat&logo=github&logoColor=white)](https://github.com/rawanazizsaad) [![](https://img.shields.io/badge/-Email-D14836?style=flat&logo=mail.ru&logoColor=white)](mailto:rawansaad222222@gmail.com)
 
 ### :email: Contact ##
-
+Contact Author <a href="https://github.com/romanyn36" target="_blank">Romani</a>
 <p align="center">
  <a href="https://www.facebook.com/romanyn3/" target="_blank">
   <img src="https://img.shields.io/badge/-Romani-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook" />
@@ -215,8 +215,6 @@ $ python main.py
 
 This project is under license from MIT. For more details. [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg?colorB=ff0000)](License.md)
 
-
-Made by <a href="https://github.com/romanyn36" target="_blank">Romani</a>
 
 &#xa0;
 
