@@ -100,16 +100,16 @@
 
 # :dart: About ##
 
-this is simple desktop app that applay some of DNA searching algorithms, we provide appp with useable desktop GUI using Pyqt6 lib in python.
+this is simple desktop app that apply some of DNA searching algorithms, we provide app with easy use desktop GUI using Pyqt6 lib in python.
 
 
 ## :sparkles: Features and Used Algorithms ##
 
-:heavy_check_mark:you can many operations on DNA string sequence like : ;\
+:heavy_check_mark:you can apply many operations on DNA string sequence like : ;\
 - Search pattern
-- Translate sequenace to Protien 
+- Translate sequence to Protien 
 - DNA reverse
-- enter sequance mannually or browse file 
+- enter sequence mannually or browse file 
 -  you can choose which algoritms to use :
 - - <p align="center" id="top"><img src="/images/algorithms.png" alt="x-ray" width="250" height="150" /></p>
 -   - Naive 
@@ -140,7 +140,7 @@ we used python PYQT6 library and pyqt6-tools designer
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have all mensioned libraries 
+Before starting :checkered_flag:, you need to have all mentioned libraries 
 ```bash
 #use pip to install libraries 
 $ pip install pyqt6
@@ -148,7 +148,7 @@ $ pip install pyqt6-tools
 
 ```
 ## :checkered_flag: Starting ##
-first create new environment or work in existing one if requirments satsfied 
+first create new environment or work in existing one if requirments satisfied 
 ```bash
 # Clone this project
 $ git colne https://github.com/romanyn36/DNA-searching-algorithms-pyqt6.git
