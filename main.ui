@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dna_seaching</class>
+ <widget class="QWidget" name="dna_seaching">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>969</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DNA Searching Algorithms</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="btn_browse">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>50</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 16px; font-weight: bold;  border: 2px solid purple; padding: 4px; background-image: url(5.jpg);</string>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ed_pattern">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>811</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> font-size: 20px;
+color:black;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>480</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 20px; font-weight: bold;padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>Skip</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ed_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>811</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> font-size: 20px;
+color:black;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>931</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 20px; font-weight: bold;padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>Input DNA Sequence:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>430</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 20px; font-weight: bold;padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>ALignments</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_outputt">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>471</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid purple;
+color:white;
+ font-size: 20px; font-weight: bold;background-image: url();</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>931</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 20px; font-weight: bold;background-image: url();</string>
+   </property>
+   <property name="text">
+    <string>Enter the pattern:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>370</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 20px; font-weight: bold;padding:5px;</string>
+   </property>
+   <property name="text">
+    <string>Index</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_idx">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>370</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+color:black;
+ background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>931</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 20px; font-weight: bold;background-image: url();</string>
+   </property>
+   <property name="text">
+    <string>Choose Algorithm:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_align">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>420</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black;
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+ background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cbox_algorithm">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>811</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black; font-size: 15px; background-image: url(); border: 2px solid gray; padding: 2px;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Naive</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Boyer Moore</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SuffixArray</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>K-Mer</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>KMP</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>approximate</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DNA reverse</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DNA Translation</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>941</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 25px; font-weight: bold;padding:5px;
+border: 1px solid purple;</string>
+   </property>
+   <property name="text">
+    <string>  Output:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_apply">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>560</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 20px; font-weight: bold;  border: 3px solid purple; </string>
+   </property>
+   <property name="text">
+    <string>Apply Algorithm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_skip">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>470</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+color:black;
+ background-color:white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
