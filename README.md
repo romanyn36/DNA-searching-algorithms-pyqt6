@@ -110,7 +110,11 @@ this is simple desktop app that applay some of DNA searching algorithms, we prov
 - Translate sequenace to Protien 
 - DNA reverse
 - enter sequance mannually or browse file 
--  algoritms we used :
+-  you can choose which algoritms to use :
+<p align="center" id="top"> 
+<img src="/images/algorithms.png" alt="x-ray" width="150" height="150" />
+
+</p>
 -   - Naive 
 - - Boyer-Moore (bad charachter & good suffiux)
 - - K-meer indexing

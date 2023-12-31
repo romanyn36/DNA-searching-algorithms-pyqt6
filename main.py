@@ -53,7 +53,7 @@ class UiDnaSeaching(QWidget):
     
     def browse_file(self):
         options = QFileDialog.Option.ReadOnly
-        file_path, _ = QFileDialog.getOpenFileName(self, "Select DNA Sequence File", "", "Text Files (*.txt ,*.fasta);;All Files (*)", options=options)
+        file_path, _ = QFileDialog.getOpenFileName(self, "Select DNA Sequence File", "", "Text Files (*.txt *.fasta);;All Files (*)", options=options)
         if file_path:
             with open(file_path, 'r') as file:
                 dna_sequence = file.read()
