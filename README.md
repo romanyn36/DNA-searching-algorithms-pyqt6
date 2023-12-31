@@ -151,7 +151,7 @@ $ pip install pyqt6-tools
 first create new environment or work in existing one if requirments satsfied 
 ```bash
 # Clone this project
-$ https://github.com/romanyn36/DNA-searching-algorithms-pyqt6.git
+$ git colne https://github.com/romanyn36/DNA-searching-algorithms-pyqt6.git
 
 $ cd DNA-searching-algorithms-pyqt6
 
