@@ -152,10 +152,10 @@ first create new environment or work in existing one if requirments satsfied
 # Clone this project
 $ https://github.com/romanyn36/DNA-searching-algorithms-pyqt6.git
 
-cd DNA-searching-algorithms-pyqt6
+$ cd DNA-searching-algorithms-pyqt6
 
 #to run app
-python main.py
+$ python main.py
 ```
 ## :busts_in_silhouette: collaborators ##
 
