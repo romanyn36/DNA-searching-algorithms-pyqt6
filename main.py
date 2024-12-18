@@ -1,8 +1,6 @@
 import sys
 import sqlite3
-import numpy as np
-import pandas as pd
-import PyQt6 as qt
+import PyQt6
 from PyQt6.QtCore import Qt 
 from PyQt6.uic import loadUi
 from PyQt6.QtGui import QPixmap

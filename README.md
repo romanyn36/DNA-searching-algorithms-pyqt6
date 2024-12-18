@@ -87,7 +87,6 @@
     <li><a href="#dart-about">About</a></li>
     <li><a href="#sparkles-features">Features</a></li>
     <li><a href="#rocket-technologies">Technologies</a></li>
-    <li><a href="#white_check_mark-requirements">Requirements</a></li>
     <li><a href="#checkered_flag-starting">Starting</a></li>
     <li><a href="#busts_in_silhouette-collaborators">collaborators</a></li>
     <li><a href="#email-contact">Contact</a></li>
@@ -138,26 +137,42 @@ we used python PYQT6 library and pyqt6-tools designer
 </p>
 
 
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have all mentioned libraries 
-```bash
-#use pip to install libraries 
-$ pip install pyqt6
-$ pip install pyqt6-tools       
-
-```
 ## :checkered_flag: Starting ##
-first create new environment or work in existing one if requirments satisfied 
+
+Before starting :checkered_flag: first setup your environment and install the libraries using the following commands:
 ```bash
+# setup new environment
+$ python -m venv myenv
+
+# activate environment 
+$ source myenv/bin/activate #for linux
+# or
+$ myenv\Scripts\activate #for windows 
+
 # Clone this project
 $ git colne https://github.com/romanyn36/DNA-searching-algorithms-pyqt6.git
 
 $ cd DNA-searching-algorithms-pyqt6
 
+# install requirements
+$ pip install -r requirements.txt
+
 #to run app
 $ python main.py
+
 ```
+- to modify the GUI you can use pyqt6-tools designer and open the ui file in the designer and then convert it to python file using the following command:
+```bash
+# open the designer 
+$ designer
+
+# convert the ui file to python file
+$ pyuic6 -x main.ui -o output.py
+
+# run the app again
+$ python main.py
+```
+
 ## :busts_in_silhouette: collaborators ##
 
 - Ziad El-Sayed Abdel-Azim&nbsp;&nbsp;&nbsp;&nbsp;[![](https://img.shields.io/badge/-@zeyadusf-181717?style=flat&logo=github&logoColor=white)](https://github.com/zeyadusf) [![](https://img.shields.io/badge/-Zeyad_Usf-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zeyad-usf-360154214/)
@@ -166,12 +181,9 @@ $ python main.py
 
 ### :email: Contact ##
 Contact Author <a href="https://github.com/romanyn36" target="_blank">Romani</a>
-<p align="center">
- <a href="https://www.facebook.com/romanyn3/" target="_blank">
-  <img src="https://img.shields.io/badge/-Romani-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook" />
-</a>
 
-<a href="https://twitter.com/romanyn36" target="_blank">
+
+<a href="https://twitter.com/RomaniNasrat" target="_blank">
   <img src="https://img.shields.io/badge/-@romanyn36-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter" />
 </a>
 
@@ -185,12 +197,7 @@ Contact Author <a href="https://github.com/romanyn36" target="_blank">Romani</a>
   <img src="https://img.shields.io/badge/-@romanyn36-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
-
-<a href="https://stackoverflow.com/users/17348975/romani" target="_blank">
-  <img src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=flat&logo=stackoverflow&logoColor=white" alt="Stack Overflow" />
-</a>
-
-<a href="mailto:romanyyy36dr99@gmail.com" target="_blank">
+<a href="mailto:romani.nasrat@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=mail.ru&logoColor=white" alt="Email" />
 </a>
 
@@ -204,11 +211,6 @@ Contact Author <a href="https://github.com/romanyn36" target="_blank">Romani</a>
 <a href="https://www.kaggle.com/romanyn36" target="_blank" style="display: inline-block;">
     <img src="https://img.shields.io/badge/Kaggle-Romani-blue.svg?style=flat-square&logo=kaggle" />
 </a>
-<!-- <a href="https://www.buymeacoffee.com/romanyn36" target="_blank" style="display: inline-block;">
-    <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" align="center"/>
-  </a> -->
-  
-
 </p>
 
 
